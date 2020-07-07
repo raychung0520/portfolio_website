@@ -17,6 +17,7 @@
         --color-yellow: #fff7d1;
         --color-orange: #feb546;
         --color-black: #000000;
+        --color-light-black: #373741;
 
         /* Font size */
         --font-large: 48px;
@@ -54,6 +55,13 @@
     ul{
         list-style: none;
         padding-left:0;
+    }
+
+    button {
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        outline: none;
     }
     
     
@@ -140,5 +148,39 @@
 
         background-color: var(--color-dark-blue);
         
+
+    }
+
+
+    /* Home */
+
+    #home {
+        background-image: url(imgs/home-background.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        padding:40px;
+    }
+
+    .home__avatar {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 2px solid var(--color-light-white);
+    }
+
+    .home__title, .home__description, .home__contact {
+        color: var(--color-light-black);
+        
+    }
+
+    .home__contact {
+        font-size: var(--font-regular);
+        font-weight: var(--weight-bold);
+        margin: 24px;
+        padding: 8px 12px;
+        border-radius: var(--size-border-radius);
+        border: 2px solid var(--color-light-black);
 
     }
