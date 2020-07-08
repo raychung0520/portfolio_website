@@ -184,3 +184,145 @@
         border: 2px solid var(--color-light-black);
 
     }
+
+
+    /* Section common */
+
+    .section {
+        padding:50px;
+        text-align: center;
+
+        margin: 0 auto;
+    }
+
+    .section__container {
+
+        max-width: 1200px;
+    }
+
+    .about__majors {
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 0;
+    }
+
+    .major {
+        padding: 30px 20px;
+        border: 2px solid var(--color-blue);
+        width:30%;
+        border-radius: var(--size-border-radius);
+        box-shadow: 4px 3px #888888;
+    }
+
+    .major__icon {
+        width: 170px;
+        height: 170px;
+        font-size: 80px;
+        line-height: 170px;
+        border-radius: 50%;
+        margin:auto;
+        color: var(--color-light-grey);
+        border: 2px solid var(--color-dark-blue);
+        
+    }
+
+    .major__icon i{
+        transition: all 300ms;
+    }
+
+    .major__icon:hover i{
+        color: var(--color-dark-blue);
+        transform: scale(1.2);
+        /* transform: rotate(20deg); */
+        
+
+        
+    }
+
+    .major__title, .major__description {
+        color: var(--color-blue);
+    }
+
+    .major__description {
+        font-size: var(--font-small);
+    }
+
+    .about__jobs {
+        margin-top: 20px;
+    }
+
+    .job__title {
+        text-align: left;
+        color: var(--color-dark-blue);
+    }
+
+    .job {
+        display: flex;
+        align-items: center;
+    }
+
+    .job__logo {
+        font-size: 50px;
+    }
+
+    .job__description {
+
+        margin: 0 20px;
+        text-align: left;
+    }
+
+    .job__name, .job__period {
+        color: var(--color-light-black);
+    }
+
+    .job__name {
+        font-size: var(--font-small);
+  
+    }
+
+    .job__period {
+        font-size: var(--font-micro);
+    }
+
+
+    
+    .about__education {
+        margin-top: 50px;
+    }
+
+    .education__title {
+        text-align: left;
+        color: var(--color-dark-blue);
+    }
+
+    .education {
+        display: flex;
+        align-items: center;
+    }
+
+    .education__logo {
+        width:50px;
+        height: 50px;
+    }
+    
+
+    .education__description {
+
+        margin: 0 20px;
+        text-align: left;
+    }
+
+    .education__name, .education__period {
+        color: var(--color-light-black);
+    }
+
+    .education__name {
+        font-size: var(--font-small);
+       
+    }
+
+    .education__period {
+        font-size: var(--font-micro);
+    }
+
+    
